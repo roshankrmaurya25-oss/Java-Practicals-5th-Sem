@@ -22,7 +22,7 @@ class Student{
 }
 class Main {
     public static void main(String[] args) {
-        Student s1=new Student(145,"Noor",87,89,98);
+        Student s1=new Student(145,"Roshan",87,89,98);
         s1.details();
         System.out.println("Marks: "+s1.totalMarks());
         System.out.println("Percentage: "+s1.percentage());
